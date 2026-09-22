@@ -1,0 +1,1 @@
+export function initMasonry(){document.querySelectorAll('[data-masonry]').forEach(r=>{r.style.columns='3 220px';r.style.columnGap='16px'})}

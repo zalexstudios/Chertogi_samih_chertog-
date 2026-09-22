@@ -1,0 +1,1 @@
+import fs from'node:fs';fs.mkdirSync('dist',{recursive:true});const css=fs.readFileSync('src/styles/main.css','utf8');fs.writeFileSync('dist/critical.css',css.split('\n').filter(x=>x.includes(':root')||x.includes('body{')||x.includes('.shell')||x.includes('.hero')||x.includes('.btn')).join('\n'));console.log('Critical CSS helper complete');

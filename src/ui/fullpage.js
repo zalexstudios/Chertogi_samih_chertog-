@@ -1,0 +1,1 @@
+export function initFullpage(){document.querySelectorAll('[data-fullpage]').forEach(r=>r.querySelectorAll(':scope>section').forEach(s=>s.style.minHeight='100vh'))}

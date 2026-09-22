@@ -1,0 +1,1 @@
+import{pages}from'../config/pages.js';export function initPageNavigation(){document.querySelectorAll('[data-page-nav]').forEach(el=>el.innerHTML=pages.map(([t,h])=>`<a href="${h}">${t}</a>`).join(''))}

@@ -1,0 +1,1 @@
+export function initGallery(){document.querySelectorAll('[data-gallery]').forEach(g=>g.onclick=e=>{const i=e.target.closest('[data-full]');if(i)window.open(i.dataset.full||i.src,'_blank')})}

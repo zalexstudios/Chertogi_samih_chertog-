@@ -1,0 +1,1 @@
+export const pages=[['Home','/'],['Demo','/demo.html'],['Components','/components.html']];

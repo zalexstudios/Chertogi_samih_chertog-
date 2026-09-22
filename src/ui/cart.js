@@ -1,0 +1,1 @@
+export function initCart(){window.CF4Cart={items:JSON.parse(localStorage.getItem('cf4-cart')||'[]'),add(x){this.items.push(x);localStorage.setItem('cf4-cart',JSON.stringify(this.items))},clear(){this.items=[];localStorage.setItem('cf4-cart','[]')}}}

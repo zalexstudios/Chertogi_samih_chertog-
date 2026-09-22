@@ -1,0 +1,1 @@
+export function initFormValidation(){document.querySelectorAll('form[data-validate]').forEach(f=>f.onsubmit=e=>{if(!f.checkValidity()){e.preventDefault();f.reportValidity()}})}

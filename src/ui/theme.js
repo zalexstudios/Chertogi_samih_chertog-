@@ -1,0 +1,1 @@
+export function initTheme(){const k='cf4-theme';if(localStorage.getItem(k)==='dark')document.body.classList.add('theme-dark');document.querySelectorAll('[data-theme-toggle]').forEach(b=>b.onclick=()=>{const d=document.body.classList.toggle('theme-dark');localStorage.setItem(k,d?'dark':'light')})}

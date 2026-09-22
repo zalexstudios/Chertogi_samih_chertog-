@@ -1,0 +1,1 @@
+export function initSpoilers(){document.querySelectorAll('[data-ui=spoiler]').forEach(r=>r.innerHTML='<details><summary>Spoiler</summary><p>Reusable spoiler component.</p></details>')}

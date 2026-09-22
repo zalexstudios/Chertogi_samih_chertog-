@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Components</title>
+</head>
+
+<body>
+    <main class="shell">
+        <nav class="page-nav" data-page-nav></nav>
+        <h1>UI Components</h1>
+        <section data-ui="tabs"></section>
+        <section data-ui="spoiler"></section>
+        <button class="btn btn-primary" data-popup-open="p1">Popup</button>
+        <div class="popup" hidden data-popup="p1">
+            <div class="popup-box">
+                <button data-popup-close>×</button>
+                <h2>Popup component</h2>
+                <p>Reusable component.</p>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

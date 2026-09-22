@@ -1,0 +1,1 @@
+export function initCursor(){const c=document.querySelector('[data-cursor]');if(!c)return;addEventListener('pointermove',e=>c.style.transform=`translate(${e.clientX}px,${e.clientY}px)`,{passive:true})}

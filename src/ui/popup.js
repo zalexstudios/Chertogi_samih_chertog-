@@ -1,0 +1,1 @@
+export function initPopups(){document.querySelectorAll('[data-popup-open]').forEach(b=>b.onclick=()=>{const p=document.querySelector(`[data-popup="${b.dataset.popupOpen}"]`);if(p)p.hidden=false});document.querySelectorAll('[data-popup-close]').forEach(b=>b.onclick=()=>b.closest('[data-popup]').hidden=true)}

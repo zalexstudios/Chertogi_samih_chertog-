@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "chertogi-frilancera-4-pro",
+  "version": "4.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check.mjs",
+    "img:optimize": "node scripts/optimize-images.mjs",
+    "sprite:build": "node scripts/sprite.mjs",
+    "critical:build": "node scripts/critical.mjs",
+    "zip": "node scripts/zip.mjs",
+    "ftp:deploy": "node scripts/ftp.mjs"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.5",
+    "sharp": "^0.34.3",
+    "archiver": "^7.0.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}

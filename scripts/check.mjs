@@ -1,0 +1,1 @@
+import fs from'node:fs';const req=['package.json','vite.config.js','src/main.js','src/ui/index.js','src/pages/index.html'];const miss=req.filter(f=>!fs.existsSync(f));if(miss.length){console.error('Missing:',miss.join(','));process.exit(1)}console.log('Project check: OK');

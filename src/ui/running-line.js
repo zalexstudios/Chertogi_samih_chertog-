@@ -1,0 +1,1 @@
+export function initRunningLine(){document.querySelectorAll('[data-running-line]').forEach(el=>el.animate([{transform:'translateX(0)'},{transform:'translateX(-30%)'}],{duration:9000,iterations:Infinity,easing:'linear'}))}

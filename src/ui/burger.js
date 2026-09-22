@@ -1,0 +1,1 @@
+export function initBurger(){document.querySelectorAll('[data-burger]').forEach(b=>{const t=document.querySelector(b.dataset.burger);if(t)b.onclick=()=>t.classList.toggle('is-open')})}

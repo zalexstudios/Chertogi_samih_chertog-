@@ -1,0 +1,1 @@
+import fs from'node:fs';import Archiver from'archiver';fs.mkdirSync('artifacts',{recursive:true});const out=fs.createWriteStream('artifacts/project.zip'),a=Archiver('zip',{zlib:{level:9}});out.on('close',()=>console.log('ZIP created',a.pointer()));a.pipe(out);a.glob('**/*',{ignore:['node_modules/**','dist/**','artifacts/**','.git/**'],dot:true});await a.finalize();
