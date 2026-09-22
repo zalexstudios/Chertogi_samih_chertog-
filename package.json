@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "name": "chertogi-frilancera-4-pro",
+  "name": "chertogi-samih-chertog-4-pro",
   "version": "4.0.0",
   "scripts": {
     "dev": "vite",
